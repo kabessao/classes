@@ -1,0 +1,37 @@
+classe publica Principal {
+    metodo publico Principal(){
+		
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException ex) {
+            escrevaln("teste");
+		}
+        escrevaln("este é o metodo principal ");
+        OutraClasse c = nova OutraClasse();
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException ex) {
+            escrevaln("teste");
+		}
+        c.Mensagem();
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException ex) {
+            escrevaln("teste");
+		}
+        Parametro p = novo Parametro();
+        p.Mensagem("texto por parametro");
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException ex) {
+            escrevaln("teste");
+		}
+        Explicacao e = nova Explicacao();
+        e.Mensagem();
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException ex) {
+            escrevaln("teste");
+		}
+    }
+}

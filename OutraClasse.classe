@@ -1,0 +1,5 @@
+classe publica OutraClasse{
+    metodo publico vazio Mensagem() {
+        escrevaln("escrevaln e metodo publico");
+    }
+}
